@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# OS files
+.DS_Store
+
+# Outputs
+outputs/
+
+# Data (if you prefer not to commit large datasets)
+# data/
