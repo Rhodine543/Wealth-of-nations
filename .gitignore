@@ -1,15 +1,43 @@
-# Python
+# ------------------------------
+# Python cache + bytecode files
+# ------------------------------
 __pycache__/
 *.py[cod]
+*.pyo
 
+# ------------------------------
 # Virtual environment
+# ------------------------------
 venv/
+env/
 
-# OS files
+# ------------------------------
+# OS files (Mac)
+# ------------------------------
 .DS_Store
 
-# Outputs
-outputs/
+# ------------------------------
+# VS Code settings (optional)
+# ------------------------------
+.vscode/
 
-# Data (if you prefer not to commit large datasets)
-# data/
+# ------------------------------
+# Data files
+# Raw datasets can be ignored.
+# Cleaned datasets will be included.
+# Uncomment the second line if you want.
+# ------------------------------
+data/raw_*.csv
+# data/*.csv
+
+# ------------------------------
+# Outputs (keep these!)
+# DO NOT ignore outputs — you want plots on GitHub
+# ------------------------------
+# outputs/
+
+# ------------------------------
+# Logs / temp files
+# ------------------------------
+*.log
+*.tmp

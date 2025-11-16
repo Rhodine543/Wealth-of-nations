@@ -1,0 +1,111 @@
+region,variable,correlation
+Caribbean,life_expectancy,0.3819086532678276
+Caribbean,internet_users,0.709699479282576
+Caribbean,fertility,-0.4748562801182488
+Caribbean,unemployment,-0.09665560154643278
+Caribbean,urban_population_growth,-0.36047129099214553
+Central America,life_expectancy,0.8105693294570071
+Central America,internet_users,0.7191288517221759
+Central America,fertility,-0.3134996377162159
+Central America,unemployment,0.15981300062266554
+Central America,urban_population_growth,0.019651841338620333
+Central Asia,life_expectancy,0.06272111752260759
+Central Asia,internet_users,0.49085073475219115
+Central Asia,fertility,-0.30328353129312163
+Central Asia,unemployment,-0.7161372371787887
+Central Asia,urban_population_growth,0.03477620343589965
+Eastern Africa,life_expectancy,0.6610875322359575
+Eastern Africa,internet_users,0.7101750107512982
+Eastern Africa,fertility,-0.639900088635061
+Eastern Africa,unemployment,-0.010481774597599705
+Eastern Africa,urban_population_growth,-0.5795560476182904
+Eastern Asia,life_expectancy,0.9570888961178201
+Eastern Asia,internet_users,0.9017636081757632
+Eastern Asia,fertility,-0.7327351791296103
+Eastern Asia,unemployment,-0.349862399060336
+Eastern Asia,urban_population_growth,-0.6780458051576106
+Eastern Europe,life_expectancy,0.885376017813593
+Eastern Europe,internet_users,0.5378034725408016
+Eastern Europe,fertility,0.21571731470632247
+Eastern Europe,unemployment,-0.7078425950451899
+Eastern Europe,urban_population_growth,0.11798353690362967
+Melanesia,life_expectancy,-0.3348579670869092
+Melanesia,internet_users,0.9663035192140426
+Melanesia,fertility,-0.9359983321596169
+Melanesia,unemployment,0.6511691056692808
+Melanesia,urban_population_growth,-0.7496778494904213
+Micronesia,life_expectancy,-0.009707187714437437
+Micronesia,internet_users,0.8936113782934771
+Micronesia,fertility,-0.5521373382696785
+Micronesia,unemployment,-0.40780526217080143
+Micronesia,urban_population_growth,0.04489358041736544
+Middle Africa,life_expectancy,0.2549984691758702
+Middle Africa,internet_users,0.663435302937418
+Middle Africa,fertility,-0.4656001546481874
+Middle Africa,unemployment,0.5159807519299298
+Middle Africa,urban_population_growth,0.5324444703713789
+Northern Africa,life_expectancy,0.7056289719571653
+Northern Africa,internet_users,-0.05956208998616219
+Northern Africa,fertility,-0.7893556025149573
+Northern Africa,unemployment,0.10290136259919574
+Northern Africa,urban_population_growth,-0.4866071078288137
+Northern America,life_expectancy,-0.9999999999999999
+Northern America,internet_users,-1.0
+Northern America,fertility,1.0
+Northern America,unemployment,-0.9999999999999999
+Northern America,urban_population_growth,-1.0
+Northern Europe,life_expectancy,0.8759152966299925
+Northern Europe,internet_users,0.5512409310162191
+Northern Europe,fertility,0.47496934737950514
+Northern Europe,unemployment,-0.4995411069211933
+Northern Europe,urban_population_growth,0.7495817429287458
+Oceania,life_expectancy,1.0
+Oceania,internet_users,-0.9999999999999998
+Oceania,fertility,-1.0
+Oceania,unemployment,1.0
+Oceania,urban_population_growth,0.9999999999999998
+Polynesia,life_expectancy,0.06493847882237393
+Polynesia,internet_users,-0.29037061754868176
+Polynesia,fertility,-0.24485441634753208
+Polynesia,unemployment,-0.8609513448537179
+Polynesia,urban_population_growth,-0.543781324379604
+South America,life_expectancy,0.7308496061995969
+South America,internet_users,0.7914374215819122
+South America,fertility,-0.623111539695688
+South America,unemployment,0.2974056965816528
+South America,urban_population_growth,-0.5058360291734288
+South-Eastern Asia,life_expectancy,0.8028149239811686
+South-Eastern Asia,internet_users,0.6997132659685129
+South-Eastern Asia,fertility,-0.5896124843795764
+South-Eastern Asia,unemployment,0.5142630755152828
+South-Eastern Asia,urban_population_growth,-0.5106363779864829
+Southern Africa,life_expectancy,0.9958632010115455
+Southern Africa,internet_users,0.7818830757058818
+Southern Africa,fertility,-0.3779253559745414
+Southern Africa,unemployment,-0.17047911377739478
+Southern Africa,urban_population_growth,0.20263928149784785
+Southern Asia,life_expectancy,0.853338491178624
+Southern Asia,internet_users,0.8329510134993228
+Southern Asia,fertility,-0.5327785513061254
+Southern Asia,unemployment,0.023364239087823944
+Southern Asia,urban_population_growth,-0.11906290996317488
+Southern Europe,life_expectancy,0.9111588514254461
+Southern Europe,internet_users,-0.038478380941372535
+Southern Europe,fertility,-0.5100027241029412
+Southern Europe,unemployment,-0.6400367243036421
+Southern Europe,urban_population_growth,0.06528988744979235
+Western Africa,life_expectancy,0.504793264291709
+Western Africa,internet_users,0.8776040511395642
+Western Africa,fertility,-0.6085669329158548
+Western Africa,unemployment,0.6522158850076326
+Western Africa,urban_population_growth,-0.39344981537894264
+Western Asia,life_expectancy,0.6776377618694098
+Western Asia,internet_users,0.7195578237153829
+Western Asia,fertility,-0.32273162434652136
+Western Asia,unemployment,-0.7572685777109512
+Western Asia,urban_population_growth,0.3354424494151206
+Western Europe,life_expectancy,0.32347298866746227
+Western Europe,internet_users,0.7220567025478561
+Western Europe,fertility,-0.6892707833306411
+Western Europe,unemployment,-0.21237173204848833
+Western Europe,urban_population_growth,0.9258316787074949
