@@ -7,7 +7,7 @@ def run_regression(df: pd.DataFrame):
     Runs a multiple linear regression with gdp_per_capita as the target.
     """
 
-    # Select predictor variables (based on your correlations)
+    # Selects predictor variables (based on the correlations)
     predictors = [
         "life_expectancy",
         "internet_users",
