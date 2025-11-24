@@ -256,17 +256,21 @@ Run:
 
 Outputs:
 
-clustered_countries.csv — each country labeled with a cluster
+`clustered_countries.csv` — each country labeled with a cluster
 
-clusters_scatter.png — scatterplot of GDP per capita vs life expectancy with cluster colors
+`clusters_scatter.png` — scatterplot of GDP per capita vs life expectancy with cluster colors
 
-Cluster Interpretation :
+## Cluster Interpretation :
 
 Cluster	Characteristics	Interpretation
-3	High GDP (~$47k), high life expectancy (~81), high internet (~89%), low fertility	High-income digital economies
-2	Low GDP (~$1.6k), low life expectancy (~63), high fertility (~4.6), low internet (~18%)	Low-income, high-fertility economies
-1	Mid-level GDP (~$7.9k), moderate social indicators	Transition economies
-0	Mid-low GDP (~$6.2k), moderate internet and fertility	Developing economies
+### 3.low fertility	High-income digital economies
+ 	High GDP (about $47k), high life expectancy (about 81), high internet (89%) 
+### 2.Low-income, high-fertility economies
+	Low GDP (about $1.6k), low life expectancy (about 63), high fertility ( about 4.6), low internet (18%)	
+### 1.Transition economies	
+    Mid-level GDP (~$7.9k), moderate social indicators	
+### 0.Developing economies  	
+    moderate low GDP (about $6.2k), moderate internet and fertility	
 
 Clustering complements regression by uncovering development archetypes.
 
@@ -359,26 +363,5 @@ All outputs appear in the outputs/ folder.
 
 ## 7. Conclusively,
 
-Countries with higher life expectancy and greater internet access enjoy significantly higher GDP per capita.
-
-Higher fertility strongly correlates with lower income levels.
-
-The strength and direction of these relationships vary significantly by continent.
-
-K-means clustering reveals clear global development groups:
-
-high-income digital economies
-
-low-income high-fertility economies
-
-intermediate transition economies
-
-The combination of:
-
-visualization
-
-regression
-
-unsupervised clustering
-provides a rich, multi-dimensional understanding of global inequality.
+Across continents, the regression results show that the social and demographic indicators used in this project explain economic performance to very different degrees. In Africa, the model accounts for only about 30% of the variation in GDP per capita, suggesting that key structural drivers of development such as institutional quality, political stability, infrastructure, education systems, conflict intensity, and access to global markets play a much larger role in shaping economic outcomes than the variables captured in this dataset. In contrast, continents such as Europe, South America, and Oceania exhibit much higher R² values, but these must be interpreted cautiously because they arise from very small sample sizes, which can artificially inflate explanatory power. Despite these differences, a clear and robust pattern emerges: internet usage consistently appears as the strongest predictor of GDP across nearly all regions. This makes intuitive economic sense, higher internet penetration signals stronger digital infrastructure, greater access to information, higher productivity, more participation in global trade and services, and the diffusion of technology and innovation. Together, the results show that while basic demographic factors matter, the digital divide and broader structural conditions remain central in explaining why some countries achieve much higher income levels than others.
 

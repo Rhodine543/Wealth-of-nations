@@ -40,16 +40,4 @@ coef_table = pd.concat(results, axis=1)
 coef_table.to_csv("outputs/regression_coefficients_by_continent.csv")
 print("\n✔️ Saved: outputs/regression_coefficients_by_continent.csv")
 
-# Plot coefficients (continental comparison)
-coef_table = coef_table.drop(index="const")  # remove intercept
 
-plt.figure(figsize=(10, 6))
-sns.heatmap(coef_table, annot=True, cmap="coolwarm", center=0)
-plt.title("Regression Coefficients by Continent")
-plt.ylabel("Variables")
-plt.xlabel("Continent")
-plt.tight_layout()
-plt.savefig("outputs/regression_continent_heatmap.png")
-plt.close()
-
-print("✔️ Saved: outputs/regression_continent_heatmap.png")
