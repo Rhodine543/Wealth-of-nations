@@ -80,7 +80,25 @@ Wealth-of-nations/
 ├── main.py                           # Entry script: loads cleaned data, prints summary + correlations
 ├── requirements.txt                  
 ├── .gitignore                        
-└── README.md                         
+└── README.md
+
+
+3. Methods and Analysis
+3.1 Data Cleaning (scripts/clean_data.py)
+
+Main steps:
+
+Load data/country_data.csv
+
+Create combined life_expectancy
+
+Keep essential economic & social variables
+
+Map regions → continents
+
+Drop missing GDP/life expectancy rows
+
+Save cleaned file as data/clean_country_data.csv                         
 
 
 ### 3. Methods and Analysis
