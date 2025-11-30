@@ -3,6 +3,9 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+st.set_page_config(page_title="Wealth of Nations Dashboard", layout="wide")
+
+
 # ---------- LOAD DATA ----------
 @st.cache_data
 def load_data():
@@ -24,7 +27,7 @@ numeric_cols = [
 continents = sorted(df["continent"].dropna().unique())
 
 # ---------- PAGE LAYOUT ----------
-st.set_page_config(page_title="Wealth of Nations Dashboard", layout="wide")
+
 
 # Title + header message
 st.title("🌍 Wealth of Nations – Interactive Dashboard")
